@@ -1,0 +1,16 @@
+.office img {
+    width: 100%;
+}
+
+@media screen and (min-width:992px) {
+    .office-content {
+        display: flex;
+        align-items: start;
+        gap: 16px;
+    }
+
+    .office img {
+        width: 48%;
+    }
+    
+}
