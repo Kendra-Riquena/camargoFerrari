@@ -1,0 +1,24 @@
+.header {
+    background: var(--light-color);
+}
+
+.navbar-logo {
+    width: 206px;
+}
+
+.header .nav-link {
+    font-family: var(--title-font);
+    font-weight: 400;
+    color: var(--tertiary-color);
+}
+
+@media screen and (min-width:768px) {
+    .navbar-logo {
+        width: 280px;
+    }
+
+    .header .nav-link {
+        text-align: center;
+
+    }
+}
