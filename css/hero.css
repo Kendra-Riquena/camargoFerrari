@@ -1,0 +1,79 @@
+.hero {
+    background: url(../img/banner-hero-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    text-align: center;
+    padding: 14vh 0;
+}
+
+.hero-title {
+    font-family: var(--title-font);
+    font-size: 28px;
+    color: var(--primary-color);
+}
+
+.hero-text {
+    color: var(--tertiary-color);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.hero-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-btn .btn {
+    text-align: center;
+    font-size: 20px;
+    width: 210px;
+}
+
+.btn-contact {
+    background: var(--primary-color);
+    color: var(--light-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-explore {
+    background: var(--light-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+@media screen and (min-width:768px) {
+    .hero {
+        background: url(../img/banner-hero-desktop.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: start;
+        height: 85vh;
+        padding: 20vh 0;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .hero-text {
+        font-size: 24px;
+    }
+
+    .hero-btn {
+        flex-direction: row;
+        justify-content: start;
+        gap: 16px;
+    }
+
+    .btn-contact:hover,
+    .btn-explore:hover{
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+}

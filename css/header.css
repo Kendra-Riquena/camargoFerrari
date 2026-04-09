@@ -22,3 +22,9 @@
 
     }
 }
+
+@media screen and (min-width:1200px) {
+     .header .nav-link:hover {
+        color: var(--secondary-color);
+    }
+}
