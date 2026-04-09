@@ -16,3 +16,35 @@ body {
     font-size: 16px;
     font-weight: 300;
 }
+
+section {
+    padding: 80px 0;
+}
+
+.title h2 {
+    font-family: var(--title-font);
+    font-family: 24px;
+    color: var(--primary-color);
+    margin-bottom: 6px;
+}
+
+.title hr {
+    width: 120px;
+    margin: 0 0 32px;
+    border: 1px solid var(--secondary-color);
+    opacity: 1;
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        font-size: 20px;
+    }
+    
+    .title h2 {
+        font-family: 32px;
+    }
+
+    .title hr {
+        width: 150px;
+    }
+}
