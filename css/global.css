@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #00003C;
+    --secondary-color: #00A29B;
+    --tertiary-color: #525C6F;
+    --light-color: #FCFCFC;
+    --text-dark: #333333;
+
+    --title-font: 'Libre Baskerville', serif;
+    --text-font: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--light-color);
+    color: var(--text-dark);
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 300;
+}
