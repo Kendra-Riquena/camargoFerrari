@@ -45,3 +45,35 @@
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+
+@media screen and (min-width:768px) {
+    .hero {
+        background: url(../img/banner-hero-desktop.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: start;
+        height: 85vh;
+        padding: 20vh 0;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .hero-text {
+        font-size: 24px;
+    }
+
+    .hero-btn {
+        flex-direction: row;
+        justify-content: start;
+        gap: 16px;
+    }
+
+    .btn-contact:hover,
+    .btn-explore:hover{
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+}
