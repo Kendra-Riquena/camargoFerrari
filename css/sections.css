@@ -78,6 +78,33 @@
     text-decoration: none;
 }
 
+.team-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-content a {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+.team-content img {
+    width: 298px;
+}
+
+.team-content h3 {
+    font-family: var(--title-font);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.team-content h4 {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 @media screen and (min-width:768px) {
     
 }
@@ -120,5 +147,9 @@
 
     .publication a:hover {
         color: var(--secondary-color);
+    }
+
+    .team-content {
+        flex-direction: row;
     }
 }
