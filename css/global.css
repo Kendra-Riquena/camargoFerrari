@@ -35,6 +35,10 @@ section {
     opacity: 1;
 }
 
+.error {
+    color: var(--secondary-color);
+}
+
 @media screen and (min-width:1200px) {
     .title h2 {
         font-family: 32px;
