@@ -223,14 +223,12 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         outline: 2px solid var(--secondary-color);
-
     }
 
     #form button:hover {
         background: var(--secondary-color);
         color: var(--primary-color);
         border: 1px solid var(--primary-color);
-
     }
 
 
