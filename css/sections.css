@@ -2,15 +2,44 @@
     width: 100%;
 }
 
+.activity {
+    background: #FFFFFF;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 16px;
+    list-style: disc;
+    margin-top: 24px;
+}
+
+.activity-list a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-family: var(--title-font);
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
 @media screen and (min-width:992px) {
     .office-content {
         display: flex;
         align-items: start;
-        gap: 16px;
+        gap: 24px;
     }
 
     .office img {
-        width: 48%;
+        width: 36%;
+    }
+
+    .activity-list li:hover,
+    .activity-list li a:hover{
+        color: var(--secondary-color);
     }
     
 }
