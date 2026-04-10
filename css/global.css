@@ -36,10 +36,6 @@ section {
 }
 
 @media screen and (min-width:1200px) {
-    body {
-        font-size: 16px;
-    }
-    
     .title h2 {
         font-family: 32px;
     }

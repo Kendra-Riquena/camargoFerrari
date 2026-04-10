@@ -22,6 +22,28 @@
     font-family: var(--title-font);
 }
 
+.diferential-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+    align-items: start;
+    justify-content: center
+}
+
+.diferential-content img {
+    width: 100%;
+}
+
+.diferential-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.diferential-content h3 {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
 @media screen and (min-width:768px) {
     
 }
