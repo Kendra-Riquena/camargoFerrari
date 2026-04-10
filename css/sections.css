@@ -42,7 +42,7 @@
 .diferential-content h3 {
     color: var(--primary-color);
     font-size: 20px;
-    
+
 }
 
 .publication {
@@ -71,7 +71,7 @@
     color: var(--primary-color);
 }
 
-.publication-page{
+.publication-page {
     display: block;
     text-align: right;
     color: var(--primary-color);
@@ -105,6 +105,59 @@
     font-weight: 500;
 }
 
+.contact {
+    background: #FFFFFF;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-container h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.contact-info p {
+    margin: 20px 0 4px
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+#form {
+    background: var(--tertiary-color);
+    color: var(--light-color);
+    padding: 0 8px;
+    border-radius: 6px;
+}
+
+#form label {
+    display: block;
+    margin-top: 20px;
+}
+
+#form textarea {
+    resize: none;
+}
+
+#form button {
+    display: block;
+    text-align: end;
+    margin: 16px 0 8px auto;
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+    border-radius: 4px;
+    padding: 6px 20px;
+    background: transparent;
+}
+
 @media screen and (min-width:992px) {
     .office-content {
         display: flex;
@@ -117,10 +170,10 @@
     }
 
     .activity-list li:hover,
-    .activity-list li a:hover{
+    .activity-list li a:hover {
         color: var(--secondary-color);
     }
-    
+
     .diferential-content {
         flex-direction: row;
         gap: 16px;
@@ -147,5 +200,38 @@
 
     .team-content {
         flex-direction: row;
+        justify-content: center;
     }
+
+    .team-content div {
+        max-width: 320px;
+    }
+
+    .contact-container {
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .contact-container form {
+        width: 153%;
+    }
+
+    #form input:focus,
+    #form textarea:focus {
+        border-color: inherit;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: 2px solid var(--secondary-color);
+
+    }
+
+    #form button:hover {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+
+    }
+
+
 }
