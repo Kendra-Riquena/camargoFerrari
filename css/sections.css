@@ -45,6 +45,39 @@
     
 }
 
+.publication {
+    background: #FFFFFF;
+}
+
+.publication-cards {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-links a {
+    color: var(--primary-color);
+}
+
+.publication-page{
+    display: block;
+    text-align: right;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 @media screen and (min-width:768px) {
     
 }
@@ -78,5 +111,14 @@
 
     .diferential-content ul {
         margin-bottom: 0;
+    }
+
+    .publication-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .publication a:hover {
+        color: var(--secondary-color);
     }
 }
