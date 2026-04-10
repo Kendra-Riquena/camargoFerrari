@@ -42,6 +42,7 @@
 .diferential-content h3 {
     color: var(--primary-color);
     font-size: 20px;
+    
 }
 
 @media screen and (min-width:768px) {
@@ -64,4 +65,18 @@
         color: var(--secondary-color);
     }
     
+    .diferential-content {
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: center
+    }
+
+    .diferential-content img {
+        width: 36%;
+    }
+
+    .diferential-content ul {
+        margin-bottom: 0;
+    }
 }
